@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { hello } from './App';
+import Greet from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(hello);
+
+// oppure:
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(Greet("Melissa"));
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(

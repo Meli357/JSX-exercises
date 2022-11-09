@@ -7,6 +7,14 @@ function Greet(props) {
 
 export const hello = <Greet name="Melissa" />;
 
+// oppure:
+// function Greet(name) {
+//   return <h1>"Hello, {name}!"</h1>;
+// }
+
+// export default Greet;
+
+
 // function App() {
 //   return (
 //     <div className="App">
